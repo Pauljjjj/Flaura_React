@@ -1,0 +1,168 @@
+.Flaura {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    color: green;
+    margin-top: 10px;
+}
+
+.footer {
+    border-top: 3px solid green;
+    margin-top: 900px;
+    height: 500px;
+    background-color: #b0f2b6;
+}
+
+.reseau {
+    display: flex;
+    margin-top: 15px;
+    text-decoration: none;
+    justify-content: center;
+    padding-block: 10px;
+}
+
+.img-reseau:hover {
+    border-bottom: 1px solid green;
+}
+
+.img-reseau::selection {
+    background: none;
+}
+
+.padding {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: green;
+    margin-top: 20px;
+}
+
+.divider::before {
+    margin-left: 50px;
+}
+
+.divider::after {
+    margin-right: 50px;
+}
+
+.divider2 {
+    display: flex;
+    align-items: center;
+    margin-top: -49px;
+}
+
+.divider2::before,
+.divider2::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: green;
+    margin-top: 20px;
+}
+
+.divider2::before {
+    margin-left: 50px;
+}
+
+.divider2::after {
+    margin-right: 50px;
+}
+
+.copyright {
+    text-align: center;
+    color: green;
+    margin-top: 0px;
+}
+
+.copyright::selection {
+    background: none;
+}
+
+.vertical-line {
+    border-right: 1px solid green;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    margin-left: 150px;
+    padding-top: 0px;
+}
+
+.vertical-line2 {
+    border-right: 1px solid green;
+    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-right: 80px;
+    margin-left: 80px;
+}
+
+.vertical-line3 {
+    padding-right: 150px;
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+
+.footer_down {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: green;
+}
+
+.centre {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.condition_generale {
+    background-color: white;
+    text-align: center;
+    margin-bottom: -900px;
+    margin-top: 900px;
+    font-weight: bold;
+    color: green;
+    font-size:x-small;
+}
+
+.aa:hover {
+    color: red;
+}
+
+.aa {
+    color: blue;
+}
+
+.aa::selection {
+    background: none;
+}
+
+.slider {
+    border-radius: 30px;
+    border: 1rem solid;
+    border-color: #b0f2b6;
+}
+
+.carousel {
+    margin-bottom: -750px;
+    margin-top: 50px;
+}
