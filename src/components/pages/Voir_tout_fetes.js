@@ -1,62 +1,67 @@
 import React from 'react';
 import '../CSS/Titre.css';
 import '../CSS/Article.css';
-import fete1 from '../img/muguet1.jpg';
-import fete2 from '../img/muguet2.jpg';
-import fete3 from '../img/muguet3.jpg';
-import fete4 from '../img/muguet4.jpg';
-import fete5 from '../img/muguet5.jpg';
-import fete6 from '../img/muguet6.jpg';
-import fete7 from '../img/muguet7.jpg';
-import fete8 from '../img/muguet8.jpg';
-import fete9 from '../img/muguet9.jpg';
-import fete10 from '../img/muguet10.jpg';
-import fete11 from '../img/muguet11.jpg';
-import fete12 from '../img/muguet12.jpg';
-import fete13 from '../img/muguet13.jpg';
-import fete14 from '../img/muguet14.jpg';
-import fete15 from '../img/muguet15.jpg';
-import fete16 from '../img/muguet16.jpg';
-import fete17 from '../img/muguet17.jpg';
-import fete18 from '../img/noel1.jpg';
-import fete19 from '../img/noel2.jpg';
-import fete20 from '../img/noel3.jpg';
-import fete21 from '../img/noel4.jpg';
-import fete22 from '../img/noel5.jpg';
-import fete23 from '../img/noel6.jpg';
-import fete24 from '../img/noel7.jpg';
-import fete25 from '../img/noel8.jpg';
-import fete26 from '../img/noel9.jpg';
-import fete27 from '../img/noel10.jpg';
-import fete28 from '../img/noel11.jpg';
-import fete29 from '../img/noel12.jpg';
-import fete30 from '../img/noel13.jpg';
-import fete31 from '../img/noel14.jpg';
-import fete32 from '../img/noel15.jpg';
-import fete33 from '../img/noel16.jpg';
-import fete34 from '../img/noel17.jpg';
-import fete35 from '../img/noel18.jpg';
-import fete36 from '../img/noel19.jpg';
-import fete37 from '../img/paques1.jpg';
-import fete38 from '../img/paques2.jpg';
-import fete39 from '../img/paques3.jpg';
-import fete40 from '../img/paques4.jpg';
-import fete41 from '../img/paques5.jpg';
-import fete42 from '../img/paques6.jpg';
-import fete43 from '../img/paques7.jpg';
-import fete44 from '../img/valentin1.jpg';
-import fete45 from '../img/valentin2.jpg';
-import fete46 from '../img/valentin3.jpg';
-import fete47 from '../img/valentin4.jpg';
-import fete48 from '../img/valentin5.jpg';
-import fete49 from '../img/valentin6.jpg';
-import fete50 from '../img/valentin7.jpg';
-import fete51 from '../img/valentin8.jpg';
-import fete52 from '../img/valentin9.jpg';
-import fete53 from '../img/valentin10.jpg';
-import fete54 from '../img/valentin11.jpg';
-import fete55 from '../img/valentin12.jpg';
-import fete56 from '../img/valentin13.jpg';
+import fete1 from '../img/halloween1.jpg';
+import fete2 from '../img/halloween2.jpg';
+import fete3 from '../img/halloween3.jpg';
+import fete4 from '../img/halloween4.jpg';
+import fete5 from '../img/halloween5.jpg';
+import fete6 from '../img/muguet1.jpg';
+import fete7 from '../img/muguet2.jpg';
+import fete8 from '../img/muguet3.jpg';
+import fete9 from '../img/muguet4.jpg';
+import fete10 from '../img/muguet5.jpg';
+import fete11 from '../img/muguet6.jpg';
+import fete12 from '../img/muguet7.jpg';
+import fete13 from '../img/muguet8.jpg';
+import fete14 from '../img/muguet9.jpg';
+import fete15 from '../img/muguet10.jpg';
+import fete16 from '../img/muguet11.jpg';
+import fete17 from '../img/muguet12.jpg';
+import fete18 from '../img/muguet13.jpg';
+import fete19 from '../img/muguet14.jpg';
+import fete20 from '../img/muguet15.jpg';
+import fete21 from '../img/muguet16.jpg';
+import fete22 from '../img/muguet17.jpg';
+import fete23 from '../img/noel1.jpg';
+import fete24 from '../img/noel2.jpg';
+import fete25 from '../img/noel3.jpg';
+import fete26 from '../img/noel4.jpg';
+import fete27 from '../img/noel5.jpg';
+import fete28 from '../img/noel6.jpg';
+import fete29 from '../img/noel7.jpg';
+import fete30 from '../img/noel8.jpg';
+import fete31 from '../img/noel9.jpg';
+import fete32 from '../img/noel10.jpg';
+import fete33 from '../img/noel11.jpg';
+import fete34 from '../img/noel12.jpg';
+import fete35 from '../img/noel13.jpg';
+import fete36 from '../img/noel14.jpg';
+import fete37 from '../img/noel15.jpg';
+import fete38 from '../img/noel16.jpg';
+import fete39 from '../img/noel17.jpg';
+import fete40 from '../img/noel18.jpg';
+import fete41 from '../img/noel19.jpg';
+import fete42 from '../img/paques1.jpg';
+import fete43 from '../img/paques2.jpg';
+import fete44 from '../img/paques3.jpg';
+import fete45 from '../img/paques4.jpg';
+import fete46 from '../img/paques5.jpg';
+import fete47 from '../img/paques6.jpg';
+import fete48 from '../img/paques7.jpg';
+import fete49 from '../img/valentin1.jpg';
+import fete50 from '../img/valentin2.jpg';
+import fete51 from '../img/valentin3.jpg';
+import fete52 from '../img/valentin4.jpg';
+import fete53 from '../img/valentin5.jpg';
+import fete54 from '../img/valentin6.jpg';
+import fete55 from '../img/valentin7.jpg';
+import fete56 from '../img/valentin8.jpg';
+import fete57 from '../img/valentin9.jpg';
+import fete58 from '../img/valentin10.jpg';
+import fete59 from '../img/valentin11.jpg';
+import fete60 from '../img/valentin12.jpg';
+import fete61 from '../img/valentin13.jpg';
 import fleche from '../img/fleche.png';
 
 export default function Voir_tout_fetes() {
@@ -231,6 +236,21 @@ export default function Voir_tout_fetes() {
         </section>
         <section className='article'>
           <img src={fete56} width={300} height={400} alt='article56'/>
+        </section>
+        <section className='article'>
+          <img src={fete57} width={300} height={400} alt='article57'/>
+        </section>
+        <section className='article'>
+          <img src={fete58} width={300} height={400} alt='article58'/>
+        </section>
+        <section className='article'>
+          <img src={fete59} width={300} height={400} alt='article59'/>
+        </section>
+        <section className='article'>
+          <img src={fete60} width={300} height={400} alt='article60'/>
+        </section>
+        <section className='article'>
+          <img src={fete61} width={300} height={400} alt='article61'/>
         </section>
         <section className='article2'>
         </section>

@@ -28,7 +28,7 @@ h2 {
 }
 
 .img-reseau:hover {
-    border-bottom: 1px solid green;
+    border: 2px solid #b0f2b6;
 }
 
 .img-reseau::selection {

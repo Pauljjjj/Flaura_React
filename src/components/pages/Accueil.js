@@ -51,21 +51,21 @@ export default function Accueil() {
       <footer className='footer'>
         <h2>suivez-nous sur les réseaux sociaux</h2>
         <div className='reseau'>
-          <div className='img-reseau'>
+          <div>
             <a href='https://www.facebook.com/profile.php?id=100078716487156'>
-              <img src={facebook} width={30} height={30} alt='2'/>
+              <img className='img-reseau' src={facebook} width={30} height={30} alt='2'/>
             </a>
           </div>
           <div className='padding'>
-            <div className='img-reseau'>
+            <div >
               <a href='https://www.instagram.com/flauraflowershop/?fbclid=IwAR3vghKBHYqw1ugv1KMiuFl3TcIC3Oi6aT3i-QVhNV5iXZf7AAKe0Y9tkRI'>
-                <img src={instagram} width={30} height={30} alt='3'/>
+                <img className='img-reseau' src={instagram} width={30} height={30} alt='3'/>
               </a>
             </div>
           </div>          
-          <div className='img-reseau'>
+          <div>
             <a href='https://www.tiktok.com/@flaura_flaura'>
-              <img src={tiktok} width={30} height={30} alt='4'/>
+              <img className='img-reseau' src={tiktok} width={30} height={30} alt='4'/>
             </a>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../CSS/Titre.css'
+import '../CSS/Article.css';
 
 export default function Voir_tout_creations_originales() {
   return (
