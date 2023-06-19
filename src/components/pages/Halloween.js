@@ -11,7 +11,7 @@ import fleche from '../img/fleche.png';
 export default function Halloween() {
   return (
     <div>
-      <h1 className='halloween'>Halloween</h1>
+      <h1 className="text-title" id='top'>Halloween</h1>
       <main>
         <section className='article'>
           <img src={Halloween1} width={300} height={400} alt='article1'/>
@@ -32,7 +32,7 @@ export default function Halloween() {
         </section>
       </main>
       <div className='ancre'>
-        <a href="mai">
+        <a href="#top">
           <img src={fleche} width={75} height={75} alt=''/>
         </a>
       </div>

@@ -19,7 +19,7 @@ import Noel from './components/pages/Noel';
 import Voir_tout_fetes from './components/pages/Voir_tout_fetes';
 import les_compositions_piquees from './components/pages/Les_compositions_piquees';
 import nos_bouquets_ronds from './components/pages/Nos_bouquets_ronds';
-
+import Error from './components/pages/Error';
 
 
 function App() {
@@ -44,6 +44,7 @@ function App() {
         <Route path='/voir_tout_fetes' exact component={Voir_tout_fetes} />
         <Route path='/les_compositions_piquees' exact component={les_compositions_piquees} />
         <Route path='/nos_bouquets_ronds' exact component={nos_bouquets_ronds} />
+        <Route path='/*' component={Error} />
       </Switch>
     </Router>
   );

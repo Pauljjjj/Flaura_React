@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     font-size: xx-large;
-    color: green;
+    color: #8f8762;
     margin-top: 50px;
 }
 
@@ -18,12 +18,20 @@ h1{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #b0f2b6;
+    background: #ddd4cf;
     border-radius: 10px;
-    border: 3px solid green;
+    border: 3px solid #8f8762;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #6bd573;
+    background: #ddd4cfbc;
+}
+
+.text-title::selection{
+    background: none;
+}
+
+a,h1,h2,h3,h4,h5,h6,title::selection{
+    background: none;
 }

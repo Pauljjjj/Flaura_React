@@ -25,7 +25,7 @@ import fleche from '../img/fleche.png';
 export default function Noel() {
   return (
     <div>
-      <h1 className='noel'>Noël</h1>
+      <h1 className="text-title" id='top'>Noël</h1>
       <main>
         <section className='article'>
           <img src={noel1} width={300} height={400} alt='article1'/>
@@ -86,7 +86,7 @@ export default function Noel() {
         </section>
       </main>
       <div className='ancre'>
-        <a href="noel">
+        <a href="#top">
           <img src={fleche} width={75} height={75} alt=''/>
         </a>
       </div>

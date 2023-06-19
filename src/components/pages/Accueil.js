@@ -4,7 +4,7 @@ import '../CSS/Accueil.css';
 import facebook from '../img/logo-facebook.png';
 import instagram from '../img/logo-instagram.png';
 import tiktok from '../img/logo-tiktok.png';
-import flaura from '../img/Flaura.png';
+import flaura from '../img/bg2.png';
 import localisation from '../img/emplacement.png';
 import phone from '../img/telephone.png';
 import horaire from '../img/horaire.png';
@@ -26,21 +26,21 @@ export default function Accueil() {
     <div>
       <body>
         <div className='Flaura'>
-          <img src={flaura} width={350} height={130} alt='1'/>
+          <img src={flaura} width={757} height={757} alt='1'/>
         </div>
         <div className='centre'>
           <div className='carousel'>
-            <AliceCarousel autoPlay autoPlayInterval="8000" disableDotsControls disableButtonsControls>
-              <img src={img1} width={500} height={600} className="slider" />
-              <img src={img2} width={500} height={600} className="slider" />
-              <img src={img3} width={500} height={600} className="slider" />
-              <img src={img4} width={500} height={600} className="slider" />
-              <img src={img5} width={500} height={600} className="slider" />
-              <img src={img6} width={500} height={600} className="slider" />
-              <img src={img7} width={500} height={600} className="slider" />
-              <img src={img8} width={500} height={600} className="slider" />
-              <img src={img9} width={500} height={600} className="slider" />
-              <img src={img10} width={500} height={600} className="slider" />
+            <AliceCarousel autoPlay autoPlayInterval="8000" disableDotsControls disableButtonsControls infinite="true">
+              <img src={img1} width={500} height={600} className="slider" alt="" />
+              <img src={img2} width={500} height={600} className="slider" alt="" />
+              <img src={img3} width={500} height={600} className="slider" alt="" />
+              <img src={img4} width={500} height={600} className="slider" alt="" />
+              <img src={img5} width={500} height={600} className="slider" alt="" />
+              <img src={img6} width={500} height={600} className="slider" alt="" />
+              <img src={img7} width={500} height={600} className="slider" alt="" />
+              <img src={img8} width={500} height={600} className="slider" alt="" />
+              <img src={img9} width={500} height={600} className="slider" alt="" />
+              <img src={img10} width={500} height={600} className="slider" alt="" />
             </AliceCarousel>
           </div>  
         </div>

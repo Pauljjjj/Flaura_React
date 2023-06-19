@@ -98,9 +98,7 @@ function Navbar() {
   };
 
   return (
-    <><div>
-        <img className='image' alt=''/>
-      </div>
+    <>
       <nav className='navbar'>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
