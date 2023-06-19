@@ -22,7 +22,7 @@ import fleche from '../img/fleche.png'
 export default function nos_bouquets_ronds() {
   return (
     <div>
-      <h1 className="text-title" id='top'>Les bouquets ronds</h1>
+      <h1 className='text-title3' id='top'>Les bouquets ronds</h1>
       <main>
         <section className='article'>
           <img src={bouquet_rond1} width={300} height={400} alt='article1'/>

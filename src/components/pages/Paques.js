@@ -13,7 +13,7 @@ import fleche from '../img/fleche.png';
 export default function Paques() {
   return (
     <div>
-      <h1 className="text-title" id='top'>Pâques</h1>
+      <h1 className='text-title3' id='top'>Pâques</h1>
       <main>
         <section className='article'>
           <img src={paques1} width={300} height={400} alt='article1'/>

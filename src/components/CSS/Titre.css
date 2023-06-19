@@ -30,8 +30,36 @@ h1{
 
 .text-title::selection{
     background: none;
+    cursor: default;
 }
 
-a,h1,h2,h3,h4,h5,h6,title::selection{
+.text-title{
+    font-size: small;
+}
+
+.text-title2::selection {
     background: none;
+    cursor: default;
+}
+
+.text-title2{
+    font-size: medium;
+}
+
+.text-title3::selection {
+    background: none;
+    cursor: default;
+}
+
+.text-title3 {
+    font-size:xx-large;
+}
+
+p,a,h1,h2,h3,h4,h5,h6,title::selection{
+    background: none;
+    cursor: default;
+}
+
+a,title::selection{
+    cursor: pointer;
 }

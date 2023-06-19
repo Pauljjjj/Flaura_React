@@ -23,7 +23,7 @@ import fleche from '../img/fleche.png';
 export default function Mai() {
   return (
     <div>
-      <h1 className="text-title" id='top'>1er Mai</h1>
+      <h1 className='text-title3' id='top'>1er Mai</h1>
       <main>
         <section className='article'>
           <img src={Mai1} width={300} height={400} alt='article1'/>

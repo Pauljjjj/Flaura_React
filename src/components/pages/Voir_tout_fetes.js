@@ -67,7 +67,7 @@ import fleche from '../img/fleche.png';
 export default function Voir_tout_fetes() {
   return (
     <div>
-      <h1 className="text-title" id='top'>tous les bouquets de fêtes</h1>
+      <h1 className='text-title3' id='top'>tous les bouquets de fêtes</h1>
       <main>
         <section className='article'>
           <img src={fete1} width={300} height={400} alt='article1'/>

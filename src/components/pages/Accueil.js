@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import '../CSS/Accueil.css';
+import '../CSS/Titre.css';
 import facebook from '../img/logo-facebook.png';
 import instagram from '../img/logo-instagram.png';
 import tiktok from '../img/logo-tiktok.png';
@@ -45,11 +46,11 @@ export default function Accueil() {
           </div>  
         </div>
         <div className='condition_generale'>
-          <h6>l’utilisation du site implique <br/> l’acceptation pleine et entière des <br/><a className='aa' href="condition_general.html"> conditions générales </a> <br/> d’utilisation décrites ci-après</h6>
+          <h6 className='text-title'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
         </div>
       </body>
       <footer className='footer'>
-        <h2>suivez-nous sur les réseaux sociaux</h2>
+        <h2 className='text-title2'>suivez-nous sur les réseaux sociaux</h2>
         <div className='reseau'>
           <div>
             <a href='https://www.facebook.com/profile.php?id=100078716487156'>
@@ -73,30 +74,30 @@ export default function Accueil() {
         <div className='footer_down'>
           <ul className="vertical-line">
             <div className='centre'>
-            <img src={localisation} width={50} height={50} alt='5'/>
-              <br/>
-                <p>17 cours Victor Leydet</p>
-                <p>13790 Fuveau</p>
+            <img className='text-title2' src={localisation} width={50} height={50} alt='5'/>
+              <br className='text-title2'/>
+              <p className='text-title2'>17 cours Victor Leydet</p>
+              <p className='text-title2'>13790 Fuveau</p>
             </div>
           </ul>
           <ul className="vertical-line2">
             <div className='centre'>
-              <img src={phone} width={50} height={50} alt='6'/>
-              <br/>
-              <p>04 42 58 74 27</p>
+              <img className='text-title2' src={phone} width={50} height={50} alt='6'/>
+              <br className='text-title2'/>
+              <p className='text-title2'>04 42 58 74 27</p>
             </div>
           </ul>
           <ul className="vertical-line3">
             <div className='centre'>
-              <img src={horaire} width={50} height={50} alt='6'/>
+              <img className='text-title2' src={horaire} width={50} height={50} alt='6'/>
             </div>
-            <p>❌ Lundi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
-            <p>✔️ Mardi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p>✔️ Mercredi&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p>✔️ Jeudi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p>✔️ Vendredi&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p>✔️ Samedi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p>✔️ Dimanche&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
+            <p className='text-title2'>❌ Lundi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
+            <p className='text-title2'>✔️ Mardi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Mercredi&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Jeudi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Vendredi&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Samedi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Dimanche&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
           </ul>
         </div>
         <div className='divider2'></div>

@@ -19,7 +19,7 @@ import fleche from '../img/fleche.png';
 export default function Saint_valentin() {
   return (
     <div>
-      <h1 className="text-title" id='top'>Saint Valentin</h1>
+      <h1 className='text-title3' id='top'>Saint Valentin</h1>
       <main>
         <section className='article'>
           <img src={Saint_valentin1} width={300} height={400} alt='article1'/>
