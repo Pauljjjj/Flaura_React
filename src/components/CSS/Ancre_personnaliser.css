@@ -1,0 +1,29 @@
+.ancre_personnalise {
+    margin-left: 50px;
+    color: #8f8762;
+    font-family: cursive;
+    text-shadow: 2px 4px 3px #ddd4cf;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+}
+
+.ancre_personnalise:hover {
+    margin-left: 50px;
+    color: #8f8762;
+    font-family: cursive;
+    text-shadow: 2px 4px 3px #ddd4cf;
+    font-weight: bold;
+    text-underline-offset: 2px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.ancre_personnalise_centre {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}

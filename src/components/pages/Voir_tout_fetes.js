@@ -1,6 +1,7 @@
 import React from 'react';
 import '../CSS/Titre.css';
 import '../CSS/Article.css';
+import '../CSS/Ancre_personnaliser.css';
 import fete1 from '../img/halloween1.jpg';
 import fete2 from '../img/halloween2.jpg';
 import fete3 from '../img/halloween3.jpg';
@@ -68,9 +69,26 @@ export default function Voir_tout_fetes() {
   return (
     <div>
       <h1 className='text-title3' id='top'>tous les bouquets de fêtes</h1>
+        <div className="ancre_personnalise_centre">
+          <a className="ancre_personnalise" href="#halloween_ancre">
+            Halloween
+          </a>
+          <a className="ancre_personnalise" href="#mai_ancre">
+            1er Mai
+          </a>
+          <a className="ancre_personnalise" href="#noel_ancre">
+            Noël
+          </a>
+          <a className="ancre_personnalise" href="#paques_ancre">
+            Pâques
+          </a>
+          <a className="ancre_personnalise" href="#valentin_ancre">
+            Saint Valentin
+          </a>
+        </div>
       <main>
         <section className='article'>
-          <img src={fete1} width={300} height={400} alt='article1'/>
+          <img src={fete1} width={300} height={400} alt='article1' id="halloween_ancre"/>
         </section>
         <section className='article'>
           <img src={fete2} width={300} height={400} alt='article2'/>
@@ -85,7 +103,7 @@ export default function Voir_tout_fetes() {
           <img src={fete5} width={300} height={400} alt='article5'/>
         </section>
         <section className='article'>
-          <img src={fete6} width={300} height={400} alt='article6'/>
+          <img src={fete6} width={300} height={400} alt='article6' id="mai_ancre"/>
         </section>
         <section className='article'>
           <img src={fete7} width={300} height={400} alt='article7'/>
@@ -136,7 +154,7 @@ export default function Voir_tout_fetes() {
           <img src={fete22} width={300} height={400} alt='article22'/>
         </section>
         <section className='article'>
-          <img src={fete23} width={300} height={400} alt='article23'/>
+          <img src={fete23} width={300} height={400} alt='article23' id="noel_ancre"/>
         </section>
         <section className='article'>
           <img src={fete24} width={300} height={400} alt='article24'/>
@@ -196,7 +214,7 @@ export default function Voir_tout_fetes() {
           <img src={fete42} width={300} height={400} alt='article42'/>
         </section>
         <section className='article'>
-          <img src={fete43} width={300} height={400} alt='article43'/>
+          <img src={fete43} width={300} height={400} alt='article43' id="paques_ancre"/>
         </section>
         <section className='article'>
           <img src={fete44} width={300} height={400} alt='article44'/>
@@ -214,7 +232,7 @@ export default function Voir_tout_fetes() {
           <img src={fete48} width={300} height={400} alt='article48'/>
         </section>
         <section className='article'>
-          <img src={fete49} width={300} height={400} alt='article49'/>
+          <img src={fete49} width={300} height={400} alt='article49' id="valentin_ancre"/>
         </section>
         <section className='article'>
           <img src={fete50} width={300} height={400} alt='article50'/>
