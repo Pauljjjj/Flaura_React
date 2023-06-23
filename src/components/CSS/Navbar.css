@@ -1,3 +1,6 @@
+*::selection{
+    background: none;
+}
 
 .navbar {
     background: white;
@@ -32,29 +35,29 @@
 }
 
 .nav-item:hover{
-    background-color: #ddd4cf;
+    background-color: #c2d095;
     transition: all 0.5s ease-out;
-    border-bottom: 2px solid #8f8762;
+    border-bottom: 2px solid #646C4C;
 }
 
 .nav-links {
-    color: #8f8762;
+    color: #646C4C;
     text-decoration: none;
     padding: 0.5rem 1rem;
     align-items: center;
     width: 200px;
     cursor: default;
-    text-shadow: 2px 4px 3px #ddd4cf;
+    text-shadow: 2px 4px 3px #c2d095;
 }
 
 .nav-links-click {
-    color: #8f8762;
+    color: #646C4C;
     text-decoration: none;
     padding: 0.5rem 1rem;
     align-items: center;
     width: 200px;
     cursor: pointer;
-    text-shadow: 2px 4px 3px #ddd4cf;
+    text-shadow: 2px 4px 3px #c2d095;
 }
 
 .nav-links::before {
