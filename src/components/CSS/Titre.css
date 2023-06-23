@@ -18,14 +18,14 @@ h1{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #ddd4cf;
+    background: #c2d095;
     border-radius: 10px;
-    border: 3px solid #8f8762;
+    border: 3px solid #646C4C;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #ddd4cfbc;
+    background: #c2d095;
 }
 
 .text-title::selection{

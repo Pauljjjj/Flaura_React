@@ -4,13 +4,18 @@
 }
 
 .Flaura img{
-    outline: 5px double white;
+    outline: 5px solid white;
     outline-offset: -20px;
-    border: 2px solid #8f8762;
+    border: 2px solid #646C4C;
+    margin-top: 100px;
 }
 .Flaura img:hover{
-    outline-offset: -80px;
+    outline-offset: -110px;
     transition: 0.5s ease;
+}
+
+#text_hover:hover{
+    cursor: pointer;
 }
 
 h2 {
@@ -21,7 +26,7 @@ h2 {
 }
 
 .footer {
-    border-top: 3px solid #8f8762;
+    border-top: 3px solid #646C4C;
     margin-top: 900px;
     height: 500px;
     background-color: #ddd4cf;
@@ -58,7 +63,7 @@ h2 {
     content: '';
     flex-grow: 1;
     height: 1px;
-    background-color: #8f8762;
+    background-color: #646C4C;
     margin-top: 20px;
 }
 
@@ -81,7 +86,7 @@ h2 {
     content: '';
     flex-grow: 1;
     height: 1px;
-    background-color: #8f8762;
+    background-color: #646C4C;
     margin-top: 20px;
 }
 
@@ -95,7 +100,7 @@ h2 {
 
 .copyright {
     text-align: center;
-    color: #8f8762;
+    color: #646C4C;
     margin-top: 0px;
 }
 
@@ -104,7 +109,7 @@ h2 {
 }
 
 .vertical-line {
-    border-right: 1px solid #8f8762;
+    border-right: 1px solid #646C4C;
     padding-right: 150px;
     padding-bottom: 100px;
     margin-left: 150px;
@@ -116,7 +121,7 @@ h2 {
 }
 
 .vertical-line::selection {
-    border-right: 1px solid #8f8762;
+    border-right: 1px solid #646C4C;
     padding-right: 150px;
     padding-bottom: 100px;
     margin-left: 150px;
@@ -124,7 +129,7 @@ h2 {
 }
 
 .vertical-line2 {
-    border-right: 1px solid #8f8762;
+    border-right: 1px solid #646C4C;
     padding-bottom: 100px;
     padding-top: 0px;
     padding-right: 80px;
@@ -160,7 +165,7 @@ h2 {
     margin-bottom: -900px;
     margin-top: 900px;
     font-weight: bold;
-    color: #8f8762;
+    color: #646C4C;
     font-size:x-small;
 }
 
@@ -179,12 +184,12 @@ h2 {
 .slider {
     border-radius: 30px;
     border: 1rem solid;
-    border-color: #ddd4cf;
+    border-color: #c2d095;
 }
 
 .carousel {
     margin-bottom: -750px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 @media screen and (max-width:680px) {
@@ -202,14 +207,14 @@ h2 {
     }
 
     .footer {
-        border-top: 3px solid #8f8762;
+        border-top: 3px solid #646C4C;
         margin-top: 900px;
         height: 1000px;
-        background-color: #ddd4cf;
+        background-color: #c2d095;
     }
 
     .vertical-line {
-        border-right: 1px solid #ddd4cf;
+        border-right: 1px solid #c2d095;
         padding-right: 150px;
         padding-bottom: 100px;
         margin-left: 150px;
@@ -217,7 +222,7 @@ h2 {
     }
     
     .vertical-line2 {
-        border-right: 1px solid #ddd4cf;
+        border-right: 1px solid #c2d095;
         padding-bottom: 100px;
         padding-top: 0px;
         padding-right: 80px;

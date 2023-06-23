@@ -59,7 +59,30 @@ main {
 
 .ancre img:hover {
     border: 5px solid white;
-    background: #ddd4cf;
+    background: #c2d095;
     border-radius: 50px;
     transition: 0.5s;
 } 
+
+@media screen and (max-width: 960px) {
+    .article {
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        height: 200px;
+        width: 150px;
+        overflow: hidden;
+    }
+    
+    .article2 {
+        padding: 10px;
+        height: 200px;
+        width: 150px;
+        overflow: hidden;
+    }
+
+    main{
+        padding: 0;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}

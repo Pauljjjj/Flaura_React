@@ -5,22 +5,22 @@ import '../CSS/Titre.css';
 import facebook from '../img/logo-facebook.png';
 import instagram from '../img/logo-instagram.png';
 import tiktok from '../img/logo-tiktok.png';
-import flaura from '../img/bg2.png';
+import flaura from '../img/bg4.png';
 import localisation from '../img/emplacement.png';
 import phone from '../img/telephone.png';
 import horaire from '../img/horaire.png';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import img1 from '../img/accueil.jpg'
-import img2 from '../img/accueil2.jpg'
-import img3 from '../img/accueil3.jpg'
-import img4 from '../img/accueil4.jpg'
-import img5 from '../img/accueil5.jpg'
-import img6 from '../img/accueil6.jpg'
-import img7 from '../img/accueil7.jpg'
-import img8 from '../img/accueil8.jpg'
-import img9 from '../img/accueil9.jpg'
-import img10 from '../img/accueil10.jpg'
+import img1 from '../img/accueil.jpg';
+import img2 from '../img/accueil2.jpg';
+import img3 from '../img/accueil3.jpg';
+import img4 from '../img/accueil4.jpg';
+import img5 from '../img/accueil5.jpg';
+import img6 from '../img/accueil6.jpg';
+import img7 from '../img/accueil7.jpg';
+import img8 from '../img/accueil8.jpg';
+import img9 from '../img/accueil9.jpg';
+import img10 from '../img/accueil10.jpg';
 
 export default function Accueil() {
   return (
@@ -31,7 +31,7 @@ export default function Accueil() {
         </div>
         <div className='centre'>
           <div className='carousel'>
-            <AliceCarousel autoPlay autoPlayInterval="8000" disableDotsControls disableButtonsControls infinite="true">
+            <AliceCarousel autoPlay autoPlayInterval="5000" disableDotsControls disableButtonsControls infinite="true">
               <img src={img1} width={500} height={600} className="slider" alt="" />
               <img src={img2} width={500} height={600} className="slider" alt="" />
               <img src={img3} width={500} height={600} className="slider" alt="" />

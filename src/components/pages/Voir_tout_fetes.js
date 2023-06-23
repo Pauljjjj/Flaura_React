@@ -68,7 +68,7 @@ import fleche from '../img/fleche.png';
 export default function Voir_tout_fetes() {
   return (
     <div>
-      <h1 className='text-title3' id='top'>tous les bouquets de fêtes</h1>
+      <h1 className='text-title3' id='top'>bouquets de fêtes</h1>
         <div className="ancre_personnalise_centre">
           <a className="ancre_personnalise" href="#halloween_ancre">
             Halloween
