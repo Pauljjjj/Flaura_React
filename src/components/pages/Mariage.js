@@ -10,6 +10,7 @@ import Mariage7 from '../img/mariage7.jpg';
 import Mariage8 from '../img/mariage8.jpg';
 import Mariage9 from '../img/mariage9.jpg';
 import Mariage10 from '../img/mariage10.jpg';
+import fleche from '../img/fleche.png';
 
 export default function Mariage() {
   return (
@@ -48,6 +49,11 @@ export default function Mariage() {
         </section>
       </main>
       <div className='condition_generale2'>
+      <div className='ancre'>
+        <a href="#top">
+          <img src={fleche} width={75} height={75} alt=''/>
+        </a>
+      </div>
         <h6 className='text-title'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
       </div>
     </div>

@@ -36,6 +36,7 @@ h1{
 
 .text-title{
     font-size: small;
+    color: #8f8762;
 }
 
 .text-title2::selection {
