@@ -14,7 +14,7 @@ function Dropdown3 () {
             <ul onClick={handleClick} className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
                 {MenuItems3.map((item, index) => {
                     return(
-                        <li className='text-title2' key={index}>
+                        <li className='text-title2'key={index}>
                             <Link className={item.cName} to={item.path} onClick={() => setClick(false)}>
                                 {item.title}
                             </Link>

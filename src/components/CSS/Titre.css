@@ -3,7 +3,6 @@ h1{
     font-size: xx-large;
     color: #646C4C;
     margin-top: 50px;
-    text-shadow: 2px 4px 3px #c2d095;
 }
 
 /* width */
@@ -36,7 +35,7 @@ h1{
 
 .text-title{
     font-size: small;
-    color: #8f8762;
+    color: #8f8762 ;
 }
 
 .text-title2::selection {

@@ -48,6 +48,13 @@
     width: 200px;
     cursor: default;
     text-shadow: 2px 4px 3px #c2d095;
+    background-color: white;
+    border-bottom: 2px solid white;
+}
+
+.nav-links:hover {
+    background-color: #c2d095;
+    border-bottom: 2px solid #646C4C;
 }
 
 .nav-links-click {
