@@ -11,6 +11,7 @@ import phone from '../img/telephone.png';
 import horaire from '../img/horaire.png';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
+import map from '../img/map.png'
 import img1 from '../img/accueil.jpg';
 import img2 from '../img/accueil2.jpg';
 import img3 from '../img/accueil3.jpg';
@@ -100,7 +101,12 @@ export default function Accueil() {
             <p className='text-title2'>✔️ Dimanche&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
           </ul>
         </div>
-        <div className='divider2'></div>
+        <div className='map'>
+          <div className='divider2'></div>
+          <h5 className='coordonnee'> Coordonnée </h5>
+          <img src={map} width={400} height={300} alt="" className='map'/>
+        </div>
+        <div className='divider3'></div>
         <h5 className="copyright">&copy; 2023 F'Laura, Tous droits réservés.</h5>
       </footer>
     </div>

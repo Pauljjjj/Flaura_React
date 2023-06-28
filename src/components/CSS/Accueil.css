@@ -28,7 +28,7 @@ h2 {
 .footer {
     border-top: 3px solid #646C4C;
     margin-top: 900px;
-    height: 500px;
+    height: 900px;
     background-color: #ddd4cf;
 }
 
@@ -95,6 +95,28 @@ h2 {
 }
 
 .divider2::after {
+    margin-right: 50px;
+}
+
+.divider3 {
+    display: flex;
+    align-items: center;
+}
+
+.divider3::before,
+.divider3::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: #646C4C;
+    margin-top: 20px;
+}
+
+.divider3::before {
+    margin-left: 50px;
+}
+
+.divider3::after {
     margin-right: 50px;
 }
 
@@ -190,6 +212,20 @@ h2 {
 .carousel {
     margin-bottom: -750px;
     margin-top: 100px;
+}
+
+.map{
+    text-align: center;
+}
+
+.map img{
+    border: 2px solid #646C4C;
+}
+
+.coordonnee{
+    margin-top: 30px;
+    color: #646C4C;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width:680px) {
