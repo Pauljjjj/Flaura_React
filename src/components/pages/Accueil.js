@@ -101,10 +101,12 @@ export default function Accueil() {
             <p className='text-title2'>✔️ Dimanche&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
           </ul>
         </div>
-        <div className='map'>
-          <div className='divider2'></div>
-          <h5 className='coordonnee'> Coordonnée </h5>
-          <img src={map} width={400} height={300} alt="" className='map'/>
+        <div className='divider2'></div>
+        <h3 className='coordonnee'> Coordonnée </h3>
+        <div className='center'>
+          <div className='map'>
+            <img src={map} width={400} height={300} alt="" className='map'/>
+          </div>
         </div>
         <div className='divider3'></div>
         <h5 className="copyright">&copy; 2023 F'Laura, Tous droits réservés.</h5>

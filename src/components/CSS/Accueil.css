@@ -214,21 +214,54 @@ h2 {
     margin-top: 100px;
 }
 
-.map{
-    text-align: center;
-}
-
 .map img{
     border: 2px solid #646C4C;
 }
 
+.map{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    align-items: center;
+    border: 2px solid #646C4C;
+}
 .coordonnee{
     margin-top: 30px;
     color: #646C4C;
     margin-bottom: 20px;
+    text-align: center;
+}
+.map::selection {
+    background: none;
 }
 
+.map img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    border: none;
+}
+
+.map img:hover {
+    cursor: zoom-in;
+    width: 100%;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+.map img::selection {
+    background: none;
+}
+
+.center{
+    margin-left: 560px;
+}
 @media screen and (max-width:680px) {
+    .map img {
+        width: 250px;
+        height: 175px;
+    }
     .Flaura img{
         display: flex;
         justify-content: center;
@@ -245,7 +278,7 @@ h2 {
     .footer {
         border-top: 3px solid #646C4C;
         margin-top: 900px;
-        height: 1000px;
+        height: 1275px;
         background-color: #c2d095;
     }
 
@@ -276,5 +309,19 @@ h2 {
         display: flex;
         align-items: center;
         margin-top: -90px;
+    }
+    .Flaura img:hover {
+        outline-offset: -55px;
+        transition: 0.5s ease;
+    }
+    .map {
+        width: 250px;
+        height: 175px;
+        overflow: hidden;
+        align-items: center;
+        border: 2px solid #646C4C;
+    }
+    .center {
+        margin-left: 70px;
     }
 }
