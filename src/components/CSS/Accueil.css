@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
 }
-
 .Flaura img{
     outline: 5px solid white;
     outline-offset: -20px;
@@ -13,25 +12,21 @@
     outline-offset: -110px;
     transition: 0.5s ease;
 }
-
 #text_hover:hover{
     cursor: pointer;
 }
-
 h2 {
     text-align: center;
     font-size: large;
     color: #8f8762;
     margin-top: 10px;
 }
-
 .footer {
     border-top: 3px solid #646C4C;
     margin-top: 900px;
     height: 900px;
     background-color: #ddd4cf;
 }
-
 .reseau {
     display: flex;
     margin-top: 15px;
@@ -39,25 +34,20 @@ h2 {
     justify-content: center;
     padding-block: 10px;
 }
-
 .img-reseau:hover {
     border: 2px solid #ddd4cf;
 }
-
 .img-reseau::selection {
     background: none;
 }
-
 .padding {
     padding-left: 40px;
     padding-right: 40px;
 }
-
 .divider {
     display: flex;
     align-items: center;
 }
-
 .divider::before,
 .divider::after {
     content: '';
@@ -66,21 +56,17 @@ h2 {
     background-color: #646C4C;
     margin-top: 20px;
 }
-
 .divider::before {
     margin-left: 50px;
 }
-
 .divider::after {
     margin-right: 50px;
 }
-
 .divider2 {
     display: flex;
     align-items: center;
     margin-top: -49px;
 }
-
 .divider2::before,
 .divider2::after {
     content: '';
@@ -89,20 +75,16 @@ h2 {
     background-color: #646C4C;
     margin-top: 20px;
 }
-
 .divider2::before {
     margin-left: 50px;
 }
-
 .divider2::after {
     margin-right: 50px;
 }
-
 .divider3 {
     display: flex;
     align-items: center;
 }
-
 .divider3::before,
 .divider3::after {
     content: '';
@@ -111,25 +93,20 @@ h2 {
     background-color: #646C4C;
     margin-top: 20px;
 }
-
 .divider3::before {
     margin-left: 50px;
 }
-
 .divider3::after {
     margin-right: 50px;
 }
-
 .copyright {
     text-align: center;
     color: #646C4C;
     margin-top: 0px;
 }
-
 .copyright::selection {
     background: none;
 }
-
 .vertical-line {
     border-right: 1px solid #646C4C;
     padding-right: 150px;
@@ -137,11 +114,9 @@ h2 {
     margin-left: 150px;
     padding-top: 0px;
 }
-
 .text-title::selection {
     background: none;
 }
-
 .vertical-line::selection {
     border-right: 1px solid #646C4C;
     padding-right: 150px;
@@ -149,7 +124,6 @@ h2 {
     margin-left: 150px;
     padding-top: 0px;
 }
-
 .vertical-line2 {
     border-right: 1px solid #646C4C;
     padding-bottom: 100px;
@@ -157,14 +131,12 @@ h2 {
     padding-right: 80px;
     margin-left: 80px;
 }
-
 .vertical-line3 {
     padding-right: 150px;
     margin-left: 10px;
     padding-top: 0px;
     padding-bottom: 100px;
 }
-
 .footer_down {
     display: flex;
     justify-content: center;
@@ -174,13 +146,11 @@ h2 {
     margin-bottom: 50px;
     color: #8f8762;
 }
-
 .centre {
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-
 .condition_generale {
     background-color: white;
     text-align: center;
@@ -190,34 +160,27 @@ h2 {
     color: #646C4C;
     font-size:x-small;
 }
-
 .aa:hover {
     color: red;
 }
-
 .aa {
     color: blue;
 }
-
 .aa::selection {
     background: none;
 }
-
 .slider {
     border-radius: 30px;
     border: 1rem solid;
     border-color: #c2d095;
 }
-
 .carousel {
     margin-bottom: -750px;
     margin-top: 100px;
 }
-
 .map img{
     border: 2px solid #646C4C;
 }
-
 .map{
     width: 400px;
     height: 300px;
@@ -234,7 +197,6 @@ h2 {
 .map::selection {
     background: none;
 }
-
 .map img {
     width: 100%;
     height: 100%;
@@ -242,18 +204,15 @@ h2 {
     transition: all 1s ease;
     border: none;
 }
-
 .map img:hover {
     cursor: zoom-in;
     width: 100%;
     -webkit-transform: scale(1.8);
     transform: scale(1.8);
 }
-
 .map img::selection {
     background: none;
 }
-
 .center{
     margin-left: 560px;
 }
@@ -269,19 +228,16 @@ h2 {
         height: 400px;
         margin-top: 100px;
     }
-
     .carousel img{
         width: 250px;
         height: 300px;
     }
-
     .footer {
         border-top: 3px solid #646C4C;
         margin-top: 900px;
         height: 1275px;
         background-color: #c2d095;
     }
-
     .vertical-line {
         border-right: 1px solid #c2d095;
         padding-right: 150px;
@@ -289,7 +245,6 @@ h2 {
         margin-left: 150px;
         padding-top: 0px;
     }
-    
     .vertical-line2 {
         border-right: 1px solid #c2d095;
         padding-bottom: 100px;
@@ -297,14 +252,12 @@ h2 {
         padding-right: 80px;
         margin-left: 80px;
     }
-    
     .vertical-line3 {
         padding-right: 0;
         margin-left: 0;
         padding-top: 0px;
         padding-bottom: 200px;
     }
-
     .divider2 {
         display: flex;
         align-items: center;

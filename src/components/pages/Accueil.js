@@ -11,7 +11,7 @@ import phone from '../img/telephone.png';
 import horaire from '../img/horaire.png';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import map from '../img/map.png'
+import map from '../img/map.png';
 import img1 from '../img/accueil.jpg';
 import img2 from '../img/accueil2.jpg';
 import img3 from '../img/accueil3.jpg';

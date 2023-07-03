@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Accueil from './components/pages/Accueil';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Deuil from './components/pages/Deuil';
 import Mariage from './components/pages/Mariage';
 import Naissance from './components/pages/Naissance';

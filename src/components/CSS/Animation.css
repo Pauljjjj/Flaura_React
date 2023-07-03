@@ -2,7 +2,6 @@
     position: relative;
     text-decoration: none;
 }
-
 .hover-underline-animation::after {
     content: '';
     position: absolute;
@@ -15,7 +14,6 @@
     transition: transform 0.25s ease-out;
     transform: scaleX(0);
 }
-
 .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;

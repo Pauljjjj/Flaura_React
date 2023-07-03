@@ -1,7 +1,6 @@
 *::selection{
     background: none;
 }
-
 .navbar {
     background: white;
     display: flex;
@@ -11,12 +10,10 @@
     border-top: 1px solid grey;
     margin-top: -5px;
 }
-
 .fa-firstdraft {
     margin-left: 0.5rem;
     font-size: 1.6rem;
 }
-
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(7, auto);
@@ -26,20 +23,17 @@
     justify-content: end;
     margin-right: -300px;
 }
-
 .nav-item{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 200px;
 }
-
 .nav-item:hover{
     background-color: #c2d095;
     transition: all 0.5s ease-out;
     border-bottom: 2px solid #646C4C;
 }
-
 .nav-links {
     color: #646C4C;
     text-decoration: none;
@@ -51,12 +45,10 @@
     background-color: white;
     border-bottom: 2px solid white;
 }
-
 .nav-links:hover {
     background-color: #c2d095;
     border-bottom: 2px solid #646C4C;
 }
-
 .nav-links-click {
     color: #646C4C;
     text-decoration: none;
@@ -66,7 +58,6 @@
     cursor: pointer;
     text-shadow: 2px 4px 3px #c2d095;
 }
-
 .nav-links::before {
     content: "|";
     float: left;
@@ -83,15 +74,12 @@
     color: lightgray;
     margin-left: -23px;
 }
-
 .fa-bars {
     color: black;
 }
-
 .nav-links-mobile {
     display: none;
 }
-
 .menu-icon {
     display: none;
 }
@@ -104,7 +92,6 @@
     .NavbarItems {
         position: relative;
     }
-
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -117,7 +104,6 @@
         transition: all 0.5s ease;
         margin-top: -20px;
     }
-
     .nav-menu.active {
         background: white;
         left: 0;
@@ -125,26 +111,22 @@
         transition: all 0.5s ease;
         z-index: 1;
     }
-
     .nav-links {
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
     }
-
     .nav-links:hover {
         background-color: #c2d095;
         border-radius: 0;
     }
-
     .navbar-logo {
         position: absolute;
         top: 0;
         left: 0;
         transform: translate(25%, 50%);
     }
-
     .menu-icon {
         display: block;
         position: absolute;
@@ -154,12 +136,10 @@
         font-size: 1.8rem;
         cursor: pointer;
     }
-
     .fa-times {
         color: black;
         font-size: 2rem;
     }
-
     .nav-links-mobile {
         display: block;
         text-align: center;
@@ -172,13 +152,11 @@
         color: #fff;
         font-size: 1.5rem;
     }
-
     .nav-links-mobile:hover {
         background: #fff;
         color: #c2d095;
         transition: 250ms;
     }
-
     button {
         display: none;
     }

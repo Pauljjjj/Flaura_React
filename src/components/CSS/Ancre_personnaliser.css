@@ -9,7 +9,6 @@
     transition: all 0.25s ease;
     -webkit-transition: all 0.25s ease;
 }
-
 .ancre_personnalise:hover {
     margin-left: 50px;
     color: #646C4C;
@@ -20,7 +19,6 @@
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
 }
-
 .ancre_personnalise_centre {
     align-items: center;
     justify-content: center;
