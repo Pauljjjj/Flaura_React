@@ -25,9 +25,6 @@ export default function Voir_tout_evenement() {
           <a className="ancre_personnalise" href="#deuil_ancre">
             Deuil
           </a>
-          <a className="ancre_personnalise" href="#naissance_ancre">
-            Naissance
-          </a>
         </div>
       <main>
         <section className='article'>

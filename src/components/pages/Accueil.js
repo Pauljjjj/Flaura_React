@@ -50,7 +50,7 @@ export default function Accueil() {
           <h6 className='text-title'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
         </div>
       </body>
-      <footer className='footer'>
+      <footer className='footer_qui_sommes_nous'>
         <h2 className='text-title2'>suivez-nous sur les réseaux sociaux</h2>
         <div className='reseau'>
           <div>
@@ -92,13 +92,13 @@ export default function Accueil() {
             <div className='centre'>
               <img className='text-title2' src={horaire} width={50} height={50} alt='6'/>
             </div>
-            <p className='text-title2'>❌ Lundi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
-            <p className='text-title2'>✔️ Mardi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p className='text-title2'>✔️ Mercredi&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p className='text-title2'>✔️ Jeudi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p className='text-title2'>✔️ Vendredi&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p className='text-title2'>✔️ Samedi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-            <p className='text-title2'>✔️ Dimanche&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
+            <p className='text-title2'>❌ Lundi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
+            <p className='text-title2'>✔️ Mardi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Mercredi &ensp; 09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Jeudi&thinsp;&nbsp;&ensp;&nbsp;&nbsp;&ensp;&ensp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Vendredi&nbsp;&ensp;&ensp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Samedi&nbsp;&nbsp;&nbsp;&nbsp;&thinsp;&thinsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+            <p className='text-title2'>✔️ Dimanche&ensp;&ensp;&thinsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
           </ul>
         </div>
         <div className='divider2'></div>

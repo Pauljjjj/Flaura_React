@@ -5,7 +5,6 @@ import Accueil from './components/pages/Accueil';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Deuil from './components/pages/Deuil';
 import Mariage from './components/pages/Mariage';
-import Naissance from './components/pages/Naissance';
 import Voir_tout_evenement from './components/pages/Voir_tout_evenement';
 import Creation_de_mini_jardin from './components/pages/Creation_de_mini_jardin';
 import Voir_tout_creations_originales from './components/pages/Voir_tout_creations_originales';
@@ -31,7 +30,6 @@ function App() {
         <Route path='/' exact component={Accueil} />
         <Route path='/deuil' component={Deuil} />
         <Route path='/mariage' component={Mariage} />
-        <Route path='/naissance' component={Naissance} />
         <Route path='/voir_tout_evenement' component={Voir_tout_evenement} />
         <Route path='/creation_de_mini_jardin' component={Creation_de_mini_jardin} />
         <Route path='/voir_tout_creations_originales' component={Voir_tout_creations_originales} />

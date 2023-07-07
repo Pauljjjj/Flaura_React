@@ -33,13 +33,19 @@ h1{
 }
 .text-title2{
     font-size: medium;
+    font-weight: bold;
+    text-shadow: 2px 4px 3px #c2d095;
+    font-family: cursive;
 }
 .text-title3::selection {
     background: none;
     cursor: default;
 }
 .text-title3 {
-    font-size:xx-large;
+    font-size:x-large;
+    text-shadow: 2px 4px 3px #c2d095;
+    font-family: cursive;
+    font:xx-large;
 }
 p,a,h1,h2,h3,h4,h5,h6,title::selection{
     background: none;

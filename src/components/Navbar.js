@@ -90,8 +90,7 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item' onMouseEnter={onMouseEnter5} onMouseLeave={onMouseLeave5}>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              <p className='text-title2'> Bouquets ronds
-                <i className='fas fa-caret-down' />
+              <p className='text-title2'>Bouquets ronds <i className='fas fa-caret-down' />
               </p>
             </Link>
             {dropdown5 && <Dropdown5 />}
@@ -103,24 +102,21 @@ function Navbar() {
           </li>
           <li className='nav-item' onMouseEnter={onMouseEnter3} onMouseLeave={onMouseLeave3}>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              <p className='text-title2'>fêtes
-                <i className='fas fa-caret-down' />
+              <p className='text-title2'>fêtes <i className='fas fa-caret-down' />
               </p>
             </Link>
             {dropdown3 && <Dropdown3 />}
           </li>
           <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              <p className='text-title2'>événements 
-                <i className='fas fa-caret-down' />
+              <p className='text-title2'>événements <i className='fas fa-caret-down' />
               </p>
             </Link>
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item' onMouseEnter={onMouseEnter2} onMouseLeave={onMouseLeave2}>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              <p className='text-title2'>Création originales 
-                <i className='fas fa-caret-down' />
+              <p className='text-title2'>Création originales <i className='fas fa-caret-down' />
               </p>
             </Link>
             {dropdown2 && <Dropdown2 />}

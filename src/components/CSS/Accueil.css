@@ -24,6 +24,12 @@ h2 {
 .footer {
     border-top: 3px solid #646C4C;
     margin-top: 900px;
+    height: 500px;
+    background-color: #ddd4cf;
+}
+.footer_qui_sommes_nous {
+    border-top: 3px solid #646C4C;
+    margin-top: 900px;
     height: 900px;
     background-color: #ddd4cf;
 }
@@ -101,8 +107,9 @@ h2 {
 }
 .copyright {
     text-align: center;
-    color: #646C4C;
+    color: #8f8762;
     margin-top: 0px;
+    text-shadow: 2px 4px 3px #c2d095;
 }
 .copyright::selection {
     background: none;
@@ -190,9 +197,10 @@ h2 {
 }
 .coordonnee{
     margin-top: 30px;
-    color: #646C4C;
+    color: #8f8762;
     margin-bottom: 20px;
     text-align: center;
+    text-shadow: 2px 4px 3px #c2d095;
 }
 .map::selection {
     background: none;
@@ -236,7 +244,13 @@ h2 {
         border-top: 3px solid #646C4C;
         margin-top: 900px;
         height: 1275px;
-        background-color: #c2d095;
+        background-color: #ddd4cf;
+    }
+    .footer_qui_sommes_nous {
+        border-top: 3px solid #646C4C;
+        margin-top: 900px;
+        height: 1270px;
+        background-color: #ddd4cf;
     }
     .vertical-line {
         border-right: 1px solid #c2d095;

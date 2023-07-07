@@ -64,13 +64,13 @@ export default function Qui_sommes_nous() {
                         <div className='centre'>
                             <img className='text-title2' src={horaire} width={50} height={50} alt='6'/>
                         </div>
-                        <p className='text-title2'>❌ Lundi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
-                        <p className='text-title2'>✔️ Mardi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-                        <p className='text-title2'>✔️ Mercredi&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-                        <p className='text-title2'>✔️ Jeudi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-                        <p className='text-title2'>✔️ Vendredi&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-                        <p className='text-title2'>✔️ Samedi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
-                        <p className='text-title2'>✔️ Dimanche&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
+                        <p className='text-title2'>❌ Lundi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
+                        <p className='text-title2'>✔️ Mardi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+                        <p className='text-title2'>✔️ Mercredi &ensp; 09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+                        <p className='text-title2'>✔️ Jeudi&thinsp;&nbsp;&ensp;&nbsp;&nbsp;&ensp;&ensp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+                        <p className='text-title2'>✔️ Vendredi&nbsp;&ensp;&ensp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+                        <p className='text-title2'>✔️ Samedi&nbsp;&nbsp;&nbsp;&nbsp;&thinsp;&thinsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;15:30/19:30</p>
+                        <p className='text-title2'>✔️ Dimanche&ensp;&ensp;&thinsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
                     </ul>
                 </div>
                 <div className='divider2'>
