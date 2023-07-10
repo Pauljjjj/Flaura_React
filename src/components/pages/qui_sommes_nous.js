@@ -10,9 +10,9 @@ import tiktok from '../img/logo-tiktok.png';
 import fleche from '../img/fleche.png';
 
 export default function Qui_sommes_nous() {
-  return (
+    return (
         <div>
-            <h1 className='text-title3'>Qui sommes-nous</h1>
+            <h1 className='text-title3' id='top'>Qui sommes-nous</h1>
             <div className='condition_generale2'>
             <div className='ancre'>
                 <a href="#top">
