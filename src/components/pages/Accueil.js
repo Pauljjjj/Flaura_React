@@ -27,6 +27,7 @@ export default function Accueil() {
   return (
     <div>
       <body>
+        <section id="page">
         <div className='Flaura'>
           <img src={flaura} width={757} height={757} alt='1'/>
         </div>
@@ -49,7 +50,9 @@ export default function Accueil() {
         <div className='condition_generale'>
           <h6 className='text-title'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
         </div>
+        </section>
       </body>
+
       <footer className='footer_qui_sommes_nous'>
         <h2 className='text-title2'>suivez-nous sur les réseaux sociaux</h2>
         <div className='reseau'>

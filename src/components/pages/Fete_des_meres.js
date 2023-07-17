@@ -5,7 +5,7 @@ import fleche from '../img/fleche.png';
 export default function Fete_des_meres() {
   return (
     <div>
-      <h1 className='text-title3' id='top'>fêtes des mères</h1>
+      <h1 className='text-title3' id='top'> Fêtes des mères</h1>
       <div className='condition_generale2'>
       <div className='ancre'>
         <a href="#top">

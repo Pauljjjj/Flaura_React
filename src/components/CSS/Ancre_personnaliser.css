@@ -25,3 +25,33 @@
     text-align: center;
     margin-top: 50px;
 }
+.ancre_personnalise2 {
+    margin-left: 50px;
+    padding-right: 50px;
+    color: #646C4C;
+    font-family: cursive;
+    text-shadow: 2px 4px 3px #c2d095;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+}
+
+.ancre_personnalise2:hover{
+    margin-left: 50px;
+    color: #646C4C;
+    font-family: cursive;
+    text-shadow: 2px 4px 3px #c2d095;
+    font-weight: bold;
+    text-underline-offset: 2px;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.ancre_personnalise_centre2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}

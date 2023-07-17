@@ -5,14 +5,14 @@ import '../components/CSS/Titre.css';
 import Dropdown from './Dropdown';
 import Dropdown2 from './Dropdown2';
 import Dropdown3 from './Dropdown3';
-import Dropdown5 from './Dropdown5';
+import Dropdown4 from './Dropdown4';
 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const [dropdown2, setDropdown2] = useState(false);
   const [dropdown3, setDropdown3] = useState(false);
-  const [dropdown5, setDropdown5] = useState(false);
+  const [dropdown4, setDropdown4] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -65,19 +65,19 @@ function Navbar() {
     }
   };
 
-  const onMouseEnter5 = () => {
+  const onMouseEnter4 = () => {
     if (window.innerWidth < 960) {
-      setDropdown5(false);
+      setDropdown4(false);
     } else {
-      setDropdown5(true);
+      setDropdown4(true);
     }
   };
 
-  const onMouseLeave5 = () => {
+  const onMouseLeave4 = () => {
     if (window.innerWidth < 960) {
-      setDropdown5(false);
+      setDropdown4(false);
     } else {
-      setDropdown5(false);
+      setDropdown4(false);
     }
   };
 
@@ -88,12 +88,12 @@ function Navbar() {
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item' onMouseEnter={onMouseEnter5} onMouseLeave={onMouseLeave5}>
+          <li className='nav-item' onMouseEnter={onMouseEnter4} onMouseLeave={onMouseLeave4}>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
               <p className='text-title2'>Bouquets ronds <i className='fas fa-caret-down' />
               </p>
             </Link>
-            {dropdown5 && <Dropdown5 />}
+            {dropdown4 && <Dropdown4 />}
           </li>
           <li className='nav-item'>
             <Link to='/les_compositions_piquees' className='nav-links-click' onClick={closeMobileMenu}>
@@ -102,7 +102,7 @@ function Navbar() {
           </li>
           <li className='nav-item' onMouseEnter={onMouseEnter3} onMouseLeave={onMouseLeave3}>
             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              <p className='text-title2'>fêtes <i className='fas fa-caret-down' />
+              <p className='text-title2'>Fêtes <i className='fas fa-caret-down' />
               </p>
             </Link>
             {dropdown3 && <Dropdown3 />}
@@ -123,7 +123,7 @@ function Navbar() {
           </li>
           <li className='nav-item'>
             <Link to='/qui_sommes_nous' className='nav-links-click' onClick={closeMobileMenu}>
-              <p id='text_hover' className='text-title2'>qui sommes-nous</p>
+              <p id='text_hover' className='text-title2'>Qui sommes-nous</p>
             </Link>
           </li>
           <li className='nav-item'>

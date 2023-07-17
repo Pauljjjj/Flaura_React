@@ -17,12 +17,12 @@ import fleche from '../img/fleche.png';
 export default function Voir_tout_evenement() {
   return (
     <div>
-      <h1 className='text-title3' id='top'>tout les événements</h1>
-        <div className="ancre_personnalise_centre">
-          <a className="ancre_personnalise" href="#mariage_ancre">
+      <h1 className='text-title3' id='top'>bouquets d'événements</h1>
+        <div className="ancre_personnalise_centre2">
+          <a className="ancre_personnalise2" href="#mariage_ancre">
             Mariage
           </a>
-          <a className="ancre_personnalise" href="#deuil_ancre">
+          <a className="ancre_personnalise2" href="#deuil_ancre">
             Deuil
           </a>
         </div>

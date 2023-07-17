@@ -1,6 +1,7 @@
 import React from 'react';
 import '../CSS/Titre.css';
 import '../CSS/Article.css';
+import '../CSS/Qui_sommes_nous.css';
 import localisation from '../img/emplacement.png';
 import phone from '../img/telephone.png';
 import horaire from '../img/horaire.png';
@@ -12,16 +13,18 @@ import fleche from '../img/fleche.png';
 export default function Qui_sommes_nous() {
     return (
         <div>
-            <h1 className='text-title3' id='top'>Qui sommes-nous</h1>
-            <div className='condition_generale2'>
-            <div className='ancre'>
-                <a href="#top">
-                    <img src={fleche} width={75} height={75} alt=''/>
-                </a>
-            </div>
-            <h6 className='text-title'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
-            </div>
-            <footer className='footer'>
+            <body className='body_qui_sommes_nous'>
+                <h1 className='text-title3' id='top'>Qui sommes-nous</h1>
+                <div className='condition_generale2'>
+                    <div className='ancre'>
+                        <a href="#top">
+                            <img src={fleche} width={75} height={75} alt=''/>
+                        </a>
+                    </div>
+                    <h6 className='text-title'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
+                </div>
+            </body>
+            <footer className='footer_qui_sommes_nous'>
                 <h2 className='text-title2'>suivez-nous sur les réseaux sociaux</h2>
                 <div className='reseau'>
                     <div>
