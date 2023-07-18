@@ -158,15 +158,6 @@ h2 {
     text-align: center;
     justify-content: center;
 }
-.condition_generale {
-    background-color: white;
-    text-align: center;
-    margin-bottom: -900px;
-    margin-top: 900px;
-    font-weight: bold;
-    color: #646C4C;
-    font-size:x-small;
-}
 .aa:hover {
     color: red;
 }

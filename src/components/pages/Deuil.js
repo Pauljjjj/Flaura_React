@@ -6,7 +6,7 @@ export default function Deuil() {
   return (
     <div>
       <h1 className='text-title3' id='top'>Deuil</h1>
-      <div className='condition_generale2'>
+      <div className='condition_generale'>
       <div className='ancre'>
         <a href="#top">
           <img src={fleche} width={75} height={75} alt=''/>

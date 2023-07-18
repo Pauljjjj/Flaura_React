@@ -9,6 +9,7 @@ import facebook from '../img/logo-facebook.png';
 import instagram from '../img/logo-instagram.png';
 import tiktok from '../img/logo-tiktok.png';
 import fleche from '../img/fleche.png';
+import map from '../img/map.png';
 
 export default function Qui_sommes_nous() {
     return (
@@ -76,8 +77,14 @@ export default function Qui_sommes_nous() {
                         <p className='text-title2'>✔️ Dimanche&ensp;&ensp;&thinsp;09:00/12:00&nbsp;&nbsp;&nbsp;&nbsp;fermé</p>
                     </ul>
                 </div>
-                <div className='divider2'>
+                <div className='divider2'></div>
+                <h3 className='coordonnee'> Coordonnée </h3>
+                <div className='center'>
+                    <div className='map'>
+                        <img src={map} width={400} height={300} alt="" className='map'/>
+                    </div>
                 </div>
+                <div className='divider3'></div>
                 <h5 className="copyright">&copy; 2023 F'Laura, Tous droits réservés.</h5>
             </footer>
         </div>

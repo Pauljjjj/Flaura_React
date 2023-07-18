@@ -104,7 +104,7 @@ export default function les_compositions_piquees() {
         <img src={pique24} width={300} height={400} alt='article24'/>
       </section>
     </main>
-      <div className='condition_generale2'>
+      <div className='condition_generale'>
         <div className='ancre'>
           <a href="#top">
             <img src={fleche} width={75} height={75} alt=''/>

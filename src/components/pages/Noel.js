@@ -90,7 +90,7 @@ export default function Noel() {
           <img src={fleche} width={75} height={75} alt=''/>
         </a>
       </div>
-      <div className='condition_generale2'>
+      <div className='condition_generale'>
         <h6 className='text-title'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
       </div>
     </div>

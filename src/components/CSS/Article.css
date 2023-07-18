@@ -55,11 +55,18 @@ main {
     border-radius: 50px;
     transition: 0.5s;
 } 
+.condition_generale {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    color: #646C4C;
+    font-size: x-small;
+}
 .condition_generale2 {
     background-color: white;
     text-align: center;
-    padding-top: 1450px;
     font-weight: bold;
+    padding-top: 1450px;
     color: #646C4C;
     font-size: x-small;
 }
