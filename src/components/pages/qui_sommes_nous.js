@@ -14,7 +14,7 @@ import map from '../img/map.png';
 export default function Qui_sommes_nous() {
     return (
         <div>
-            <body className='body_qui_sommes_nous'>
+            <div className='body_qui_sommes_nous'>
                 <h1 className='text-title3' id='top'>Qui sommes-nous</h1>
                 <div className='condition_generale2'>
                     <div className='ancre'>
@@ -22,9 +22,9 @@ export default function Qui_sommes_nous() {
                             <img src={fleche} width={75} height={75} alt=''/>
                         </a>
                     </div>
-                    <h6 className='text-title'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
+                    <h6 className='text-title-qui'>l’utilisation du site implique <br className='text-title'/> l’acceptation pleine et entière des <br className='text-title'/><a className='aa' href="condition_general"> conditions générales </a> <br className='text-title'/> d’utilisation décrites ci-après</h6>
                 </div>
-            </body>
+            </div>
             <footer className='footer_qui_sommes_nous'>
                 <h2 className='text-title2'>suivez-nous sur les réseaux sociaux</h2>
                 <div className='reseau'>

@@ -73,18 +73,26 @@ export default function Voir_tout_fetes() {
           <a className="ancre_personnalise" href="#halloween_ancre">
             Halloween
           </a>
-          <a className="ancre_personnalise" href="#mai_ancre">
-            1er Mai
-          </a>
-          <a className="ancre_personnalise" href="#noel_ancre">
-            Noël
-          </a>
-          <a className="ancre_personnalise" href="#paques_ancre">
-            Pâques
-          </a>
-          <a className="ancre_personnalise" href="#valentin_ancre">
-            Saint Valentin
-          </a>
+          <div className='sep'>
+            <a className="ancre_personnalise" href="#mai_ancre">
+              1er Mai
+            </a>
+          </div>
+          <div className='sep'>
+            <a className="ancre_personnalise" href="#noel_ancre">
+              Noël
+            </a>
+          </div>
+          <div className='sep'>
+            <a className="ancre_personnalise" href="#paques_ancre">
+              Pâques
+            </a>
+          </div>
+          <div className='sep'>
+            <a className="ancre_personnalise" href="#valentin_ancre">
+              Saint Valentin
+            </a>
+          </div>
         </div>
       <main>
         <section className='article'>

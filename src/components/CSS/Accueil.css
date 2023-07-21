@@ -121,9 +121,6 @@ h2 {
     margin-left: 150px;
     padding-top: 0px;
 }
-.text-title::selection {
-    background: none;
-}
 .vertical-line::selection {
     border-right: 1px solid #646C4C;
     padding-right: 150px;

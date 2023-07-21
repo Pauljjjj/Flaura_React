@@ -19,13 +19,24 @@ h1{
 ::-webkit-scrollbar-thumb:hover {
     background: #c2d095;
 }
+.text-title-qui {
+    font-size: small;
+    color: #8f8762;
+    margin-top: 1000px;
+}
+.text-title-qui::selection {
+    background: none;
+    cursor: default;
+}
 .text-title::selection{
     background: none;
     cursor: default;
 }
 .text-title{
     font-size: small;
-    color: #8f8762 ;
+    color: #8f8762;
+    margin-top: 1000px;
+    margin-bottom: -900px;
 }
 .text-title2::selection {
     background: none;

@@ -22,9 +22,11 @@ export default function Voir_tout_evenement() {
           <a className="ancre_personnalise2" href="#mariage_ancre">
             Mariage
           </a>
-          <a className="ancre_personnalise2" href="#deuil_ancre">
-            Deuil
-          </a>
+          <div className='sep'>
+            <a className="ancre_personnalise2" href="#deuil_ancre">
+              Deuil
+            </a>
+          </div>
         </div>
       <main>
         <section className='article'>

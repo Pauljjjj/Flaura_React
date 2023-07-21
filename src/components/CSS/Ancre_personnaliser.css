@@ -1,5 +1,6 @@
 .ancre_personnalise {
     margin-left: 50px;
+    margin-right: 50px;
     color: #646C4C;
     font-family: cursive;
     text-shadow: 2px 4px 3px #c2d095;
@@ -10,7 +11,6 @@
     -webkit-transition: all 0.25s ease;
 }
 .ancre_personnalise:hover {
-    margin-left: 50px;
     color: #646C4C;
     font-family: cursive;
     text-shadow: 2px 4px 3px #c2d095;
@@ -24,10 +24,14 @@
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
 .ancre_personnalise2 {
     margin-left: 50px;
-    padding-right: 50px;
+    margin-right: 50px;
     color: #646C4C;
     font-family: cursive;
     text-shadow: 2px 4px 3px #c2d095;
@@ -37,9 +41,7 @@
     transition: all 0.25s ease;
     -webkit-transition: all 0.25s ease;
 }
-
 .ancre_personnalise2:hover{
-    margin-left: 50px;
     color: #646C4C;
     font-family: cursive;
     text-shadow: 2px 4px 3px #c2d095;
@@ -48,10 +50,28 @@
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
 }
-
 .ancre_personnalise_centre2 {
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 50px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.sep::before {
+    content: "|";
+    color: lightgray;
+    padding-left: 10px;
+}
+.sep::selection {
+    background: none;
+}
+.sep:hover {
+    cursor: default;
+}
+.sep{
+    display: inline;
+    padding-right: 20px; 
 }
