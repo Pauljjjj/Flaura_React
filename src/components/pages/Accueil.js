@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import '../CSS/Accueil.css';
 import '../CSS/Titre.css';
+import '../CSS/Footer.css';
 import facebook from '../img/logo-facebook.png';
 import instagram from '../img/logo-instagram.png';
 import tiktok from '../img/logo-tiktok.png';

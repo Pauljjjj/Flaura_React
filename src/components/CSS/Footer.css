@@ -1,0 +1,204 @@
+.footer {
+    border-top: 3px solid #646C4C;
+    margin-top: 900px;
+    height: 500px;
+    background-color: #ddd4cf;
+}
+.footer_qui_sommes_nous {
+    border-top: 3px solid #646C4C;
+    margin-top: 900px;
+    height: 900px;
+    background-color: #ddd4cf;
+}
+.img-reseau:hover {
+    border: 2px solid #ddd4cf;
+}
+.img-reseau::selection {
+    background: none;
+}
+.copyright {
+    text-align: center;
+    color: #8f8762;
+    margin-top: 0px;
+    text-shadow: 2px 4px 3px #c2d095;
+}
+.copyright::selection {
+    background: none;
+}
+.map {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    align-items: center;
+    border: 2px solid #646C4C;
+}
+.map::selection {
+    background: none;
+}
+.map img {
+    border: 2px solid #646C4C;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    border: none;
+}
+.map img:hover {
+    cursor: zoom-in;
+    width: 100%;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+}
+.map img::selection {
+    background: none;
+}
+.coordonnee {
+    margin-top: 30px;
+    color: #8f8762;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 4px 3px #c2d095;
+}
+.footer_down {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #8f8762;
+}
+.vertical-line {
+    border-right: 1px solid #646C4C;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    margin-left: 150px;
+    padding-top: 0px;
+}
+.vertical-line::selection {
+    border-right: 1px solid #646C4C;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    margin-left: 150px;
+    padding-top: 0px;
+}
+.vertical-line2 {
+    border-right: 1px solid #646C4C;
+    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-right: 80px;
+    margin-left: 80px;
+}
+.vertical-line3 {
+    padding-right: 150px;
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+}
+.divider {
+    display: flex;
+    align-items: center;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: #646C4C;
+    margin-top: 20px;
+}
+
+.divider::before {
+    margin-left: 50px;
+}
+
+.divider::after {
+    margin-right: 50px;
+}
+
+.divider2 {
+    display: flex;
+    align-items: center;
+    margin-top: -49px;
+}
+.divider2::before,
+.divider2::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: #646C4C;
+    margin-top: 20px;
+}
+.divider2::before {
+    margin-left: 50px;
+}
+.divider2::after {
+    margin-right: 50px;
+}
+.divider3 {
+    display: flex;
+    align-items: center;
+}
+.divider3::before,
+.divider3::after {
+    content: '';
+    flex-grow: 1;
+    height: 1px;
+    background-color: #646C4C;
+    margin-top: 20px;
+}
+
+.divider3::before {
+    margin-left: 50px;
+}
+
+.divider3::after {
+    margin-right: 50px;
+}
+@media screen and (max-width:680px) {
+    .footer {
+        border-top: 3px solid #646C4C;
+        margin-top: 900px;
+        height: 1275px;
+        background-color: #ddd4cf;
+    }
+    .footer_qui_sommes_nous {
+        border-top: 3px solid #646C4C;
+        margin-top: 900px;
+        height: 1000px;
+        background-color: #ddd4cf;
+    }
+    .map {
+        width: 250px;
+        height: 175px;
+        overflow: hidden;
+        align-items: center;
+        border: 2px solid #646C4C;
+    }
+    .vertical-line {
+        border-right: 1px solid #c2d095;
+        padding-right: 150px;
+        padding-bottom: 100px;
+        margin-left: 150px;
+        padding-top: 0px;
+    }    
+    .vertical-line2 {
+        border-right: 1px solid #c2d095;
+        padding-bottom: 100px;
+        padding-top: 0px;
+        padding-right: 80px;
+        margin-left: 80px;
+    }
+    .vertical-line3 {
+        padding-right: 0;
+        margin-left: 0;
+        padding-top: 0px;
+        padding-bottom: 200px;
+    }
+    .divider2 {
+        display: flex;
+        align-items: center;
+        margin-top: -90px;
+    }
+}

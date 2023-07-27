@@ -2,6 +2,7 @@ import React from 'react';
 import '../CSS/Titre.css';
 import '../CSS/Article.css';
 import '../CSS/Qui_sommes_nous.css';
+import '../CSS/Footer.css';
 import localisation from '../img/emplacement.png';
 import phone from '../img/telephone.png';
 import horaire from '../img/horaire.png';
