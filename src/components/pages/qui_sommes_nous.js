@@ -85,6 +85,10 @@ export default function Qui_sommes_nous() {
                         <img src={map} width={400} height={300} alt="" className='map'/>
                     </div>
                 </div>
+                <h3 class="text-title4">Nos partenaires</h3>
+                <p class="text-title4">Florajet</p>
+                <p class="text-title4">Fleuriste et fleurs</p>
+                <p class="text-title4">L'agitateur floral</p>
                 <div className='divider3'></div>
                 <h5 className="copyright">&copy; 2023 F'Laura, Tous droits réservés.</h5>
             </footer>

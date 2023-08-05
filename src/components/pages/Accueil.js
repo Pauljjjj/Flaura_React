@@ -52,7 +52,7 @@ export default function Accueil() {
         </div>
         </section>
 
-      <footer className='footer_qui_sommes_nous'>
+      <footer className='footer'>
         <h2 className='text-title2'>suivez-nous sur les réseaux sociaux</h2>
         <div className='reseau'>
           <div>
@@ -110,6 +110,10 @@ export default function Accueil() {
             <img src={map} width={400} height={300} alt="" className='map'/>
           </div>
         </div>
+        <h3 class="text-title4">Nos partenaires</h3>
+        <p class="text-title4">Florajet</p>
+        <p class="text-title4">Fleuriste et fleurs</p>
+        <p class="text-title4">L'agitateur floral</p>
         <div className='divider3'></div>
         <h5 className="copyright">&copy; 2023 F'Laura, Tous droits réservés.</h5>
       </footer>
